@@ -19,7 +19,6 @@ var App = React.createClass({ // eslint-disable-line
     return ( // eslint-disable-line
       <div>
         <Geosuggest
-          fixtures={fixtures}
           onFocus={this.onFocus}
           onBlur={this.onBlur}
           onChange={this.onChange}

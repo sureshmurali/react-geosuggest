@@ -106,21 +106,30 @@ class Input extends React.Component {
     const attributes = filterInputAttributes(this.props),
       classes = classnames(
         'geosuggest__input',
+        'mdl-textfield__input',
         this.props.className
       );
 
-    return <input className={classes}
-      ref='input'
-      type='text'
-      autoComplete='off'
-      {...attributes}
-      value={this.props.value}
-      style={this.props.style}
-      onKeyDown={this.onInputKeyDown}
-      onChange={this.onChange}
-      onKeyPress={this.onKeyPress}
-      onFocus={this.onFocus}
-      onBlur={this.onBlur} />;
+    return (
+      <div>
+      <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input className={classes}
+          ref='input'
+          type='text'
+          id='sample1'
+          autoComplete='off'
+          {...attributes}
+          value={this.props.value}
+          style={this.props.style}
+          onKeyDown={this.onInputKeyDown}
+          onChange={this.onChange}
+          onKeyPress={this.onKeyPress}
+          onFocus={this.onFocus}
+          onBlur={this.onBlur} />
+        <label className="mdl-textfield__label" htmlFor="sample1">Event location</label>
+      </div>
+    </div>
+      );
   }
 }
 

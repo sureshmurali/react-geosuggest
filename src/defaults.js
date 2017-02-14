@@ -5,7 +5,6 @@
 export default {
   fixtures: [],
   initialValue: '',
-  placeholder: 'Search places',
   disabled: false,
   className: '',
   inputClassName: '',
