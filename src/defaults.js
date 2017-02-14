@@ -5,6 +5,7 @@
 export default {
   fixtures: [],
   initialValue: '',
+  placeholder_material: 'Event Location',
   disabled: false,
   className: '',
   inputClassName: '',

@@ -126,7 +126,7 @@ class Input extends React.Component {
           onKeyPress={this.onKeyPress}
           onFocus={this.onFocus}
           onBlur={this.onBlur} />
-        <label className="mdl-textfield__label" htmlFor="sample1">Event location</label>
+        <label className="mdl-textfield__label" htmlFor="sample1">{this.props.placeholder_material}</label>
       </div>
     </div>
       );

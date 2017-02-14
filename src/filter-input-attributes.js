@@ -29,7 +29,7 @@ const allowedAttributes = [
   'onMouseUp',
   'onPaste',
   'pattern',
-  'placeholder',
+  'placeholder_material',
   'readOnly',
   'required',
   'size',
