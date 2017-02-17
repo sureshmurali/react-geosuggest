@@ -6,7 +6,7 @@ import React from 'react';
 export default {
   fixtures: React.PropTypes.array,
   initialValue: React.PropTypes.string,
-  placeholder: React.PropTypes.string,
+  placeholderMaterial: React.PropTypes.string,
   disabled: React.PropTypes.bool,
   className: React.PropTypes.string,
   inputClassName: React.PropTypes.string,

@@ -394,6 +394,7 @@ class Geosuggest extends React.Component {
         ignoreTab={this.props.ignoreTab}
         style={this.props.style.input}
         onChange={this.onInputChange}
+        placeholderMaterial={this.props.placeholder}
         onFocus={this.onInputFocus}
         onBlur={this.onInputBlur}
         onKeyPress={this.props.onKeyPress}

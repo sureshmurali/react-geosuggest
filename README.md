@@ -297,7 +297,7 @@ var App = React.createClass({
       <div>
         <Geosuggest
           ref={el=>this._geoSuggest=el}
-          placeholder="Start typing!"
+          placeholderMaterial="Start typing!"
           initialValue="Hamburg"
           fixtures={fixtures}
           onSuggestSelect={this.onSuggestSelect}
