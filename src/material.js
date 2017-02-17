@@ -1,6 +1,7 @@
-;(function() {
+class material{
 "use strict";
 
+constructor() {
 
 var componentHandler = {
   /**
@@ -774,5 +775,7 @@ componentHandler.register({
     widget: true
 });
 
+}
+};
 
-}());
+export default material;
